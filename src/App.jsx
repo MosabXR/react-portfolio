@@ -16,6 +16,7 @@ function App() {
     {
       path: '/', element: <Layout />, children: [
         { index: true, element: <Home /> },
+        { path: '/react-portfolio', element: <Home /> },
         { path: '/about', element: <About /> },
         { path: '/portfolio', element: <Portfolio /> },
         { path: '/contact', element: <Contact /> },
